@@ -72,11 +72,11 @@ print(f"Ônibus: {tempo_onibus:.2f} horas")'''
 
 # 6. Solicite ao usuário o peso em kg e a altura em metros. Calcule e imprima o Índice de Massa Corporal (IMC) usando a fórmula: IMC = peso / (altura x altura).
 
-'''peso = float(input("Digite seu peso:"))
+peso = float(input("Digite seu peso:"))
 altura = float(input("Digite sua altura:"))
-imc = peso / altura
+imc = peso / altura * altura
 
-print(f"Seu IMC é:{imc: .2f} ")'''
+print(f"Seu IMC é:{imc: .2f} ")
 
 #7. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.Calcule e mostre o total do seu salário no referido mês
 
@@ -103,10 +103,10 @@ print(f"Voce queimou {calorias_queimadas: .2f} no mes, parabens!")'''
 
 #9. Faça um Programa que utilize 4 variáveis como preferir e no final print uma mensagem amigável utilizando as variáveis criadas. Exemplos de variáveis: nome, idade, lugar, profissão .... Exemplo de retorno: Olá Maria, prazer te conhecer. Sou de São Paulo também e estou migrando de área. Lembrando que para o retorno vamos usar print com as variáveis criadas e este texto é somente um exemplo, utilizem a criatividade.
 
-nome = (input("Digite seu nome:"))
+'''nome = (input("Digite seu nome:"))
 idade = (input("Digite sua idade:"))
 estado = (input("Digite seu estado:"))
 
 mensagem = f"Prazer {nome} , me chamo Roberta! voce disse que tem {idade} anos eu tenho 27 anos, eu vi que voce mora em {estado} , eu moro no rio de janeiro, é um prazer te conhecer!!"
 
-input(mensagem)
+input(mensagem)'''
